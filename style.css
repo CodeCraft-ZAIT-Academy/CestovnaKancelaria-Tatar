@@ -26,6 +26,8 @@
 .Navigation-Bar{
   margin-top: 25px;
   margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   display: flex;
   gap: 20px;
 }
@@ -33,13 +35,13 @@
 .Navigation-Button{
     color: #CAF0F8;
     font-size: 20px; 
+    transition: 0.3s ease;
 }
 
 .Navigation-Button:hover{
     color: #CAF0F8;
     font-size: 20px;
-    border: #CAF0F8 solid 2px;
-    border-radius: 2px;
+    transform: scale(1.05);
 
 }
 
@@ -61,11 +63,29 @@ body{
     height: 300px;
 }
 
+/*Obrazkovy post*/
+.Homepage-Post-Image{
+    width: 100%;
+    height: auto;
+}
+
 
 /************************************************************************************/
 /*Katalog*/
 /************************************************************************************/
+.Catalog-Grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    min-width: 320px;
+    width: 100%;    
+}
+
 .Grid-Katalog-Post {
+    width: 100%;
+    max-width: 350px;
     background-color: #CAF0F8;
     display: inline-block;
     border: #90E0EF solid 3px;
@@ -81,6 +101,20 @@ body{
 
 .Grid-Katalog-Post:hover {
     transform:  scale(1.05);  
+}
+
+.Grid-Katalog-Post-Button{
+    background-color: #90E0EF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
 }
 
 
