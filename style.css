@@ -69,6 +69,19 @@ body{
     height: auto;
 }
 
+.Homepage-Post-ImageSource{
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+
+/*Textovy Post*/
+.Homepage-Post-Text{
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 
 /************************************************************************************/
 /*Katalog*/
@@ -119,9 +132,70 @@ body{
 
 
 
+/* SIDEBAR */
+.Katalog-Sidebar{
+    background-color: #CAF0F8;
+    position: fixed;
+    top: 85px;
+    left: 5px;
+    bottom: 5px;
+    padding: 20px 20px;
+    line-height: 200%;
+}
+
+.Sidebar-Button {
+    color: #03045E;
+    font-size: 20px;
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.Sidebar-Button:hover {
+    background-color: #90E0EF;
+    border-radius: 4px;
+}
+
+.Sidebar-Option-Submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-left: 10px;
+}
+
+.Sidebar-Option:hover .Sidebar-Option-Submenu {
+    max-height: 350px;
+}
+
+.Sidebar-Option-Submenu a {
+    display: block;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #03045E;
+    text-decoration: none;
+    border-left: 3px solid #90E0EF;
+    margin-bottom: 3px;
+}
+
+.Sidebar-Option-Submenu a:hover {
+    background-color: #ADE8F4;
+    border-radius: 4px;
+}
+
 /************************************************************************************/
 /*Blog*/
 /************************************************************************************/
+
+.Homepage-Post-Blog{
+    padding: 20px;
+    font-size: 18px;
+    background-color: #CAF0F8;
+    border: #90E0EF solid 3px;
+    border-radius: 5px;  
+    margin-bottom: 20px; 
+    display: flex;
+}
 
 /************************************************************************************/
 /*Poistenie*/
