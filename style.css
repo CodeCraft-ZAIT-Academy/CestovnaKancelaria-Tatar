@@ -134,6 +134,7 @@ body{
 
 /* SIDEBAR */
 .Katalog-Sidebar{
+    flex: 1;
     background-color: #CAF0F8;
     position: fixed;
     top: 85px;
@@ -183,6 +184,23 @@ body{
     border-radius: 4px;
 }
 
+/*HLAVNY KATALOG GRID*/
+.Main-Grid-Katalog{
+    flex: 1fr;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    min-width: 320px;
+    width: 100%;    
+}
+
+/*KATALOG BODY*/
+.Katalog-Body{
+    display: flex;
+}
+
 /************************************************************************************/
 /*Blog*/
 /************************************************************************************/
@@ -200,6 +218,15 @@ body{
 /************************************************************************************/
 /*Poistenie*/
 /************************************************************************************/
+
+table, td, tr{
+    border: 1px solid;
+}
+
+td, tr{
+    padding: 10px;
+    text-align: center;
+}
 
 /************************************************************************************/
 /*Kontakt*/
