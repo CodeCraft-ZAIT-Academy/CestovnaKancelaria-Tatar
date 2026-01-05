@@ -82,6 +82,12 @@ body{
     line-height: 1.6;
 }
 
+/*Reklamny post*/
+.Homepage-Post-AD{
+    max-width: 100%;
+    width: 100%;
+}
+
 
 /************************************************************************************/
 /*Katalog*/
@@ -134,14 +140,15 @@ body{
 
 /* SIDEBAR */
 .Katalog-Sidebar{
-    flex: 1;
+    width: 250px; 
     background-color: #CAF0F8;
-    position: fixed;
-    top: 85px;
-    left: 5px;
-    bottom: 5px;
-    padding: 20px 20px;
+    position: sticky;
+    top: 20px;  
+    bottom: 20px;     
+    align-self: flex-start;
+    padding: 20px;
     line-height: 200%;
+    height: fit-content; 
 }
 
 .Sidebar-Button {
@@ -186,14 +193,12 @@ body{
 
 /*HLAVNY KATALOG GRID*/
 .Main-Grid-Katalog{
-    flex: 1fr;
+    flex: 1; 
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
     gap: 20px;
     padding: 20px;
     justify-items: center;
-    min-width: 320px;
-    width: 100%;    
 }
 
 /*KATALOG BODY*/
@@ -218,14 +223,51 @@ body{
 /************************************************************************************/
 /*Poistenie*/
 /************************************************************************************/
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 table, td, tr{
-    border: 1px solid;
+    border: 1px dotted;
+    
 }
 
 td, tr{
     padding: 10px;
     text-align: center;
+}
+
+.Table-Row-Title{
+    font-weight: bold;
+    background-color: #90E0EF;
+    
+}
+
+.Poistenie-Info{
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    border: #90E0EF 3px solid;
+    width: 45%;
+    background-color: #CAF0F8;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.Poistenie-Info:hover{
+    transform: scale(1.02);
+}
+
+.Poistenie-Info-Box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 /************************************************************************************/
