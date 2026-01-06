@@ -272,19 +272,30 @@ td, tr{
 /************************************************************************************/
 /*Kontakt*/
 /************************************************************************************/
+.Kontakt-Info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 .Kontakt-Blok{
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
     border: #90E0EF 3px solid;
-    width: 45%;
+    width: 20%;
     background-color: #CAF0F8;
     border-radius: 20px;
     transition: 0.3s ease;
-    margin: 20px 20px;
+    margin: 10px 10px;
 }
 
 .Kontakt-Blok:hover{
     transform: scale(1.02);
+}
+
+#map{
+    height: 400px;
 }

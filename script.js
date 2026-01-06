@@ -1,23 +1,27 @@
-function initMap() {
+// inicializácia mapy
+const map = L.map('map').setView([48.1486, 17.1077], 7); // stred Slovenska
 
-    const stred = { lat: 48.1486, lng: 17.1077 }; // Bratislava
+// podkladová mapa (OpenStreetMap)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap'
+}).addTo(map);
 
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 7,
-        center: stred
-    });
+// konkrétne miesta
+const miesta = [
+    { lat: 48.1486,lng: 17.1077,nazov: "Bratislava - Stare Mesto"},
+    { lat: 48.3064,lng: 18.0840,nazov: "Nitra"},
+    { lat: 48.3774, lng: 17.5872, nazov: "Trnava" },
+    { lat: 49.2238,lng: 18.7394,nazov: "Žilina"},
+    { lat: 48.3064, lng: 18.0840, nazov: "Nitra" },
+    { lat: 48.9371, lng: 21.9163, nazov: "Humenné" },
+    { lat: 48.7164, lng: 21.2611, nazov: "Košice" },
+    { lat: 48.9984, lng: 21.2396, nazov: "Prešov" },
+    { lat: 48.7395, lng: 19.1530, nazov: "Banská Bystrica" }
+];
 
-    const miesta = [
-        { lat: 48.1486, lng: 17.1077, nazov: "Bratislava" },
-        { lat: 48.3064, lng: 18.0840, nazov: "Nitra" },
-        { lat: 49.2238, lng: 18.7394, nazov: "Žilina" }
-    ];
-
-    miesta.forEach(m => {
-        new google.maps.Marker({
-            position: { lat: m.lat, lng: m.lng },
-            map: map,
-            title: m.nazov
-        });
-    });
-}
+// pridanie markerov
+miesta.forEach(m => {
+    L.marker([m.lat, m.lng])
+        .addTo(map)
+        .bindPopup(`<strong>${m.nazov}</strong>`);
+});
