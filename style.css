@@ -233,7 +233,6 @@ table{
 
 table, td, tr{
     border: 1px dotted;
-    
 }
 
 td, tr{
@@ -273,3 +272,19 @@ td, tr{
 /************************************************************************************/
 /*Kontakt*/
 /************************************************************************************/
+
+.Kontakt-Blok{
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    border: #90E0EF 3px solid;
+    width: 45%;
+    background-color: #CAF0F8;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    margin: 20px 20px;
+}
+
+.Kontakt-Blok:hover{
+    transform: scale(1.02);
+}
