@@ -1,5 +1,5 @@
 // inicializácia mapy
-const map = L.map('map').setView([48.1486, 17.1077], 7); // stred Slovenska
+const map = L.map('map').setView([48.1486, 17.1077], 7);
 
 // podkladová mapa (OpenStreetMap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

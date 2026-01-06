@@ -299,3 +299,36 @@ td, tr{
 #map{
     height: 400px;
 }
+
+/************************************************************************************/
+
+/*TESTING BACKGROUND*/
+
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: -10;
+
+    background: linear-gradient(
+        120deg,
+        #a1bada,
+        #6cbaff,
+        #2aa3ff,
+        #46f5f5
+    );
+
+    background-size: 300% 300%;
+    animation: softBlueGradient 40s ease infinite;
+}
+
+@keyframes softBlueGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
