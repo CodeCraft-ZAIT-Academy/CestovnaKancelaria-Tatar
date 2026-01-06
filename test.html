@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blur kruhy</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<title>Katalóg zájazdov</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+</style>
 </head>
+
 <body>
-    <div class="background"></div>
+
+<h1>Katalóg zájazdov</h1>
+
+<button class="open-modal" data-id="dolomity">
+  Zobraziť detail – Dolomity
+</button>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <img id="obrazok" alt="">
+    <h2 id="nazov"></h2>
+    <p><strong>Destinácia:</strong> <span id="destinacia"></span></p>
+    <p><strong>Dĺžka:</strong> <span id="dlzka"></span></p>
+    <p><strong>Cena:</strong> <span id="cena"></span></p>
+    <p id="popis"></p>
+  </div>
+</div>
+
+<script>
+const modal = document.getElementById("modal");
+const closeBtn = document.querySelector(".close");
+
+document.querySelector(".open-modal").addEventListener("click", () => {
+  const id = document.querySelector(".open-modal").dataset.id;
+
+  fetch("zajazdy.json")
+    .then(response => response.json())
+    .then(data => {
+      const zajazd = data[id];
+
+      document.getElementById("nazov").textContent = zajazd.nazov;
+      document.getElementById("destinacia").textContent = zajazd.destinacia;
+      document.getElementById("dlzka").textContent = zajazd.dlzka;
+      document.getElementById("cena").textContent = zajazd.cena;
+      document.getElementById("popis").textContent = zajazd.popis;
+      document.getElementById("obrazok").src = zajazd.obrazok;
+
+      modal.classList.add("active");
+    })
+    .catch(err => console.error("Chyba pri načítaní JSON:", err));
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("active");
+});
+
+modal.addEventListener("click", e => {
+  if (e.target === modal) {
+    modal.classList.remove("active");
+  }
+});
+</script>
+
 </body>
 </html>
