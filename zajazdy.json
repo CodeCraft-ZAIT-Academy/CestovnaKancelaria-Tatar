@@ -548,7 +548,7 @@
     "dlzka": "15 dní",
     "popis": "Výstup na Aconcaguu je extrémnou výzvou pre skúsených horských nadšencov. Masívne andské štíty, vysoká nadmorská výška a drsná krása robia z tejto expedície skutočný test odolnosti.",
     "sprievodca": "Diego Alvarez",
-    "obrazok": "Source/aconcagua.png"
+    "obrazok": "Source/acocangua.png"
   },
   "vinson": {
     "nazov": "Mount Vinson – Najvyšší vrch Antarktídy",
@@ -609,15 +609,5 @@
     "popis": "Odľahlé hory, nekonečné stepi a tradičný nomádsky spôsob života. Altaj ponúka surovú prírodu a silný pocit slobody.",
     "sprievodca": "Bat-Erdene",
     "obrazok": "Source/altaj.png"
-  },
-  "svalbard_zima": {
-    "nazov": "Špicbergy v zime – Kráľovstvo tmy a svetla",
-    "destinacia": "Nórsko",
-    "cena": "2599 €",
-    "datum": "15.02.2027 - 22.02.2027",
-    "dlzka": "7 dní",
-    "popis": "Zimná Arktída ponúka extrémne podmienky, polárnu noc a možnosť pozorovať polárnu žiaru v jej najčistejšej podobe.",
-    "sprievodca": "Ingrid Olsen",
-    "obrazok": "Source/svalbard_winter.png"
   }
 }
