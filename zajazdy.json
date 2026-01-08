@@ -137,7 +137,7 @@
     "dlzka": "7 dní",
     "popis": "Island vás očarí divokou prírodou, vodopádmi, gejzírmi a sopečnými krajinami. Ideálna destinácia pre milovníkov prírody a jedinečných prírodných úkazov.",
     "sprievodca": "Ondrej Polák",
-    "obrazok": "Source/iceland.png"
+    "obrazok": "Source/island.png"
   },
   "maldivy": {
     "nazov": "Maldivy – Raj na Zemi",
@@ -157,7 +157,7 @@
     "dlzka": "4 dni",
     "popis": "Londýn spája kráľovskú históriu s moderným mestským životom. Navštívite Buckinghamský palác, Big Ben, múzeá svetovej úrovne a živé mestské štvrte.",
     "sprievodca": "Peter Wilson",
-    "obrazok": "Source/london.png"
+    "obrazok": "Source/londyn.png"
   },
   "benatky": {
     "nazov": "Benátky – Mesto na vode",
@@ -308,7 +308,7 @@
     "dlzka": "15 dní",
     "popis": "Nový Zéland je synonymom čistej prírody, dramatických hôr, fjordov a zelených údolí. Krajina, kde vznikli filmy Pán prsteňov, ponúka neuveriteľnú rozmanitosť – od ľadovcov až po pláže. Zájazd je ideálny pre cestovateľov, ktorí túžia po veľkom dobrodružstve.",
     "sprievodca": "Tomáš Kováč",
-    "obrazok": "Source/newzealand.png"
+    "obrazok": "Source/newzeland.png"
   },
   "amazonia": {
     "nazov": "Amazónia – Zelené srdce planéty",
