@@ -1,12 +1,623 @@
 {
   "dolomity": {
-    "nazov": "Dolomity",
+    "nazov": "Dotyk nebies v Dolomitoch",
     "destinacia": "Taliansko",
     "cena": "499 €",
     "datum": "15.07.2026 - 19.07.2026",
     "dlzka": "4 dni",
-    "popis": "Vždy vás to lákalo skorej do hôr ako ku moru? Ponúkame vám spoločne objaviť nádherné prostredie talianských hôr. Vydajme sa spolu na vaše životné dobrodružstvo!",
+    "popis": "Vždy vás to lákalo skôr do hôr ako k moru? Tento zájazd je splneným snom pre všetkých milovníkov prírody, ticha a majestátnych výhľadov. Dolomity ponúkajú dramatické skalné masívy, zelené alpské lúky a krištáľovo čistý horský vzduch. Počas spoločných túr a oddychu v horských chatách načerpáte energiu, ktorú si odnesiete ešte dlho po návrate domov.",
     "sprievodca": "Anna Kováčová",
     "obrazok": "Source/dolomity.png"
+  },
+  "pariz": {
+    "nazov": "Paríž – Mesto lásky a umenia",
+    "destinacia": "Francúzsko",
+    "cena": "459 €",
+    "datum": "10.06.2026 - 13.06.2026",
+    "dlzka": "3 dni",
+    "popis": "Zažite Paríž tak, ako ho poznáte z romantických filmov. Prechádzky popri Seine, ikonická Eiffelova veža, umelecké poklady Louvru a útulné kaviarničky vás vtiahnu do jedinečnej atmosféry mesta lásky. Tento zájazd je ideálny pre tých, ktorí túžia po kultúre, gastronómii a nezabudnuteľných momentoch.",
+    "sprievodca": "Martin Blaško",
+    "obrazok": "Source/pariz.png"
+  },
+  "barcelona": {
+    "nazov": "Barcelona – Energia Stredomoria",
+    "destinacia": "Španielsko",
+    "cena": "529 €",
+    "datum": "05.08.2026 - 10.08.2026",
+    "dlzka": "5 dní",
+    "popis": "Barcelona je mestom, kde sa stretáva umenie, more a vášeň pre život. Objavíte jedinečné diela Antoniho Gaudího, živé ulice plné hudby a tapas barov, aj slnečné pláže Stredozemného mora. Tento zájazd ponúka dokonalú rovnováhu medzi poznávaním, oddychom a pulzujúcou mestskou atmosférou.",
+    "sprievodca": "Lucia Novotná",
+    "obrazok": "Source/barcelona.png"
+  },
+  "rim": {
+    "nazov": "Rím – Cesta do srdca histórie",
+    "destinacia": "Taliansko",
+    "cena": "479 €",
+    "datum": "20.05.2026 - 24.05.2026",
+    "dlzka": "4 dni",
+    "popis": "Rím je mesto, kde sa história píše na každom kroku. Od majestátneho Kolosea cez Fórum Romanum až po Vatikán – každý deň je návratom do čias antiky. K tomu pravá talianska kuchyňa, espresso v malých kaviarňach a večerné prechádzky úzkymi uličkami dodajú zájazdu neopakovateľnú atmosféru.",
+    "sprievodca": "Peter Malík",
+    "obrazok": "Source/rim.png"
+  },
+  "alpy": {
+    "nazov": "Ticho a krása Rakúskych Álp",
+    "destinacia": "Rakúsko",
+    "cena": "389 €",
+    "datum": "12.09.2026 - 15.09.2026",
+    "dlzka": "3 dni",
+    "popis": "Únik od ruchu mesta do sveta hôr, kde vládne pokoj a harmónia. Rakúske Alpy ponúkajú ideálne podmienky na nenáročnú turistiku, oddych v prírode a obdivovanie dychberúcich panorám. Tento zájazd je stvorený pre tých, ktorí si chcú oddýchnuť a spomaliť.",
+    "sprievodca": "Zuzana Hrivnáková",
+    "obrazok": "Source/alpy.png"
+  },
+  "lisabon": {
+    "nazov": "Lisabon – Mesto svetla a oceánu",
+    "destinacia": "Portugalsko",
+    "cena": "549 €",
+    "datum": "18.04.2026 - 22.04.2026",
+    "dlzka": "4 dni",
+    "popis": "Lisabon očarí farebnými domami, historickými električkami a výhľadmi na Atlantický oceán. Spoznáte bohatú námornú históriu, ochutnáte tradičné pastel de nata a vychutnáte si pomalé tempo života miestnych obyvateľov. Ideálny zájazd pre milovníkov autentických zážitkov.",
+    "sprievodca": "Tomáš Urban",
+    "obrazok": "Source/lisabon.png"
+  },
+  "amsterdam": {
+    "nazov": "Amsterdam – Sloboda na kanáloch",
+    "destinacia": "Holandsko",
+    "cena": "469 €",
+    "datum": "02.07.2026 - 05.07.2026",
+    "dlzka": "3 dni",
+    "popis": "Mesto kanálov, bicyklov a umeleckých galérií ponúka jedinečnú atmosféru tolerancie a slobody. Objavíte historické centrum, plavbu loďou po kanáloch aj známe múzeá svetového významu. Amsterdam je ideálnou voľbou pre moderných cestovateľov.",
+    "sprievodca": "Michaela Vaneková",
+    "obrazok": "Source/amsterdam.png"
+  },
+  "praha": {
+    "nazov": "Praha – Rozprávka strednej Európy",
+    "destinacia": "Česká republika",
+    "cena": "299 €",
+    "datum": "14.03.2026 - 16.03.2026",
+    "dlzka": "2 dni",
+    "popis": "Praha vás privíta svojou romantickou architektúrou, historickými mostmi a čarovnými uličkami. Prechádzka Starým Mestom, návšteva Pražského hradu a večerná atmosféra pri Vltave robia z tohto zájazdu ideálny krátky únik od každodennosti.",
+    "sprievodca": "Jan Svoboda",
+    "obrazok": "Source/praha.png"
+  },
+  "ateny": {
+    "nazov": "Atény – Kolíska civilizácie",
+    "destinacia": "Grécko",
+    "cena": "519 €",
+    "datum": "08.10.2026 - 12.10.2026",
+    "dlzka": "4 dni",
+    "popis": "Vydajte sa po stopách starovekých filozofov a bohov. Atény ponúkajú jedinečné historické pamiatky, ako je Akropola, v kombinácii s moderným mestským životom a skvelou gréckou kuchyňou. Zájazd je ideálny pre milovníkov histórie aj stredomorskej pohody.",
+    "sprievodca": "Eleni Papadopoulos",
+    "obrazok": "Source/ateny.png"
+  },
+  "edinburgh": {
+    "nazov": "Edinburgh – Legendy škótskej vysočiny",
+    "destinacia": "Škótsko",
+    "cena": "569 €",
+    "datum": "21.08.2026 - 25.08.2026",
+    "dlzka": "4 dni",
+    "popis": "Tajomné mesto plné legiend, hradov a úzkych kamenných uličiek. Edinburgh vás vtiahne do sveta škótskej histórie, tradícií a drsnej krásy severu. Nezabudnuteľné výhľady a autentická atmosféra robia z tohto zájazdu skutočný zážitok.",
+    "sprievodca": "Robert McKenzie",
+    "obrazok": "Source/edinburgh.png"
+  },
+  "newyork": {
+    "nazov": "New York – Mesto, ktoré nikdy nespí",
+    "destinacia": "USA",
+    "cena": "1299 €",
+    "datum": "12.09.2026 - 18.09.2026",
+    "dlzka": "6 dní",
+    "popis": "New York je pulzujúce srdce sveta, kde sa sny menia na realitu. Objavíte Manhattan, Central Park, Times Square aj ikonickú Sochu slobody. Mesto ponúka nekonečné možnosti – od Broadway predstavení cez svetovú gastronómiu až po dychberúce výhľady z mrakodrapov.",
+    "sprievodca": "Daniel Horváth",
+    "obrazok": "Source/newyork.png"
+  },
+  "tokio": {
+    "nazov": "Tokio – Futurizmus a tradícia",
+    "destinacia": "Japonsko",
+    "cena": "1599 €",
+    "datum": "03.10.2026 - 11.10.2026",
+    "dlzka": "8 dní",
+    "popis": "Tokio je fascinujúcim spojením ultramodernej technológie a starodávnych tradícií. Chrámové záhrady, neonové štvrte, sushi bary aj tiché čajovne vytvárajú jedinečný kontrast, ktorý inde na svete nezažijete.",
+    "sprievodca": "Michal Tanaka",
+    "obrazok": "Source/tokio.png"
+  },
+  "dubaj": {
+    "nazov": "Dubaj – Luxus v srdci púšte",
+    "destinacia": "Spojené arabské emiráty",
+    "cena": "899 €",
+    "datum": "15.11.2026 - 20.11.2026",
+    "dlzka": "5 dní",
+    "popis": "Mesto rekordov, luxusu a moderných architektonických zázrakov. Dubaj ponúka najvyššiu budovu sveta, zlaté pláže, púštne safari aj nákupné centrá, ktoré berú dych.",
+    "sprievodca": "Katarína Al-Mansoor",
+    "obrazok": "Source/dubaj.png"
+  },
+  "iceland": {
+    "nazov": "Island – Krajina ohňa a ľadu",
+    "destinacia": "Island",
+    "cena": "1199 €",
+    "datum": "07.06.2026 - 14.06.2026",
+    "dlzka": "7 dní",
+    "popis": "Island vás očarí divokou prírodou, vodopádmi, gejzírmi a sopečnými krajinami. Ideálna destinácia pre milovníkov prírody a jedinečných prírodných úkazov.",
+    "sprievodca": "Ondrej Polák",
+    "obrazok": "Source/iceland.png"
+  },
+  "maldivy": {
+    "nazov": "Maldivy – Raj na Zemi",
+    "destinacia": "Maldivy",
+    "cena": "1899 €",
+    "datum": "01.12.2026 - 10.12.2026",
+    "dlzka": "9 dní",
+    "popis": "Biely piesok, tyrkysové more a absolútny pokoj. Maldivy sú ideálnym miestom pre oddych, romantiku a únik od každodenného stresu.",
+    "sprievodca": "Lucia Beníková",
+    "obrazok": "Source/maldivy.png"
+  },
+  "london": {
+    "nazov": "Londýn – Tradícia a moderný svet",
+    "destinacia": "Veľká Británia",
+    "cena": "499 €",
+    "datum": "22.05.2026 - 26.05.2026",
+    "dlzka": "4 dni",
+    "popis": "Londýn spája kráľovskú históriu s moderným mestským životom. Navštívite Buckinghamský palác, Big Ben, múzeá svetovej úrovne a živé mestské štvrte.",
+    "sprievodca": "Peter Wilson",
+    "obrazok": "Source/london.png"
+  },
+  "benatky": {
+    "nazov": "Benátky – Mesto na vode",
+    "destinacia": "Taliansko",
+    "cena": "399 €",
+    "datum": "09.04.2026 - 12.04.2026",
+    "dlzka": "3 dni",
+    "popis": "Romantické kanály, gondoly a historické paláce robia z Benátok jedno z najunikátnejších miest sveta. Každý krok je návratom do minulosti.",
+    "sprievodca": "Alessandro Rossi",
+    "obrazok": "Source/benatky.png"
+  },
+  "bali": {
+    "nazov": "Bali – Ostrov bohov",
+    "destinacia": "Indonézia",
+    "cena": "1399 €",
+    "datum": "18.08.2026 - 28.08.2026",
+    "dlzka": "10 dní",
+    "popis": "Bali je kombináciou duchovna, prírody a exotiky. Ryžové terasy, chrámy, surfovanie a relax v tropickom raji vytvárajú dokonalý zážitok.",
+    "sprievodca": "Veronika Šimková",
+    "obrazok": "Source/bali.png"
+  },
+  "budapest": {
+    "nazov": "Budapešť – Perla na Dunaji",
+    "destinacia": "Maďarsko",
+    "cena": "279 €",
+    "datum": "17.03.2026 - 19.03.2026",
+    "dlzka": "2 dni",
+    "popis": "Budapešť očarí termálnymi kúpeľmi, historickými pamiatkami a výhľadmi na Dunaj. Ideálny víkendový únik.",
+    "sprievodca": "Ádám Kovács",
+    "obrazok": "Source/budapest.png"
+  },
+  "marrakesh": {
+    "nazov": "Marrákeš – Farby Orientu",
+    "destinacia": "Maroko",
+    "cena": "649 €",
+    "datum": "05.11.2026 - 10.11.2026",
+    "dlzka": "5 dní",
+    "popis": "Orientálne trhy, vône korenín a živá kultúra vás vtiahnu do úplne iného sveta. Marrákeš je zážitok pre všetky zmysly.",
+    "sprievodca": "Youssef El Amin",
+    "obrazok": "Source/marrakesh.png"
+  },
+  
+  "norske_fjordy": {
+    "nazov": "Nórske fjordy – Ticho severu",
+    "destinacia": "Nórsko",
+    "cena": "1099 €",
+    "datum": "14.06.2026 - 21.06.2026",
+    "dlzka": "7 dní",
+    "popis": "Objavte majestátne fjordy, strmé útesy a vodopády, ktoré sa vlievajú priamo do mora. Nórska príroda ponúka absolútny pokoj, čistý vzduch a scenérie, ktoré pôsobia až neskutočne. Ideálny zájazd pre tých, ktorí chcú spomaliť a vnímať silu prírody.",
+    "sprievodca": "Erik Johansen",
+    "obrazok": "Source/fjordy.png"
+  },
+  "skotska_vysocina": {
+    "nazov": "Škótska vysočina – Krajina legiend",
+    "destinacia": "Škótsko",
+    "cena": "799 €",
+    "datum": "03.07.2026 - 09.07.2026",
+    "dlzka": "6 dní",
+    "popis": "Divoká krajina plná hmlistých kopcov, jazier a starobylých hradov. Škótska vysočina je miestom, kde sa príroda a legendy spájajú do jedného silného zážitku. Čakajú vás tiché túry, dramatické výhľady a autentická atmosféra severu.",
+    "sprievodca": "Fiona MacLeod",
+    "obrazok": "Source/highlands.png"
+  },
+  "plesecke_jazero": {
+    "nazov": "Plitvické jazerá – Smaragdový raj",
+    "destinacia": "Chorvátsko",
+    "cena": "449 €",
+    "datum": "20.05.2026 - 24.05.2026",
+    "dlzka": "4 dni",
+    "popis": "Kaskády tyrkysových jazier, drevené chodníky a desiatky vodopádov robia z Plitvických jazier jedno z najkrajších miest Európy. Zájazd je ideálny pre milovníkov prírody, fotografie a nenáročných prechádzok.",
+    "sprievodca": "Ivana Radić",
+    "obrazok": "Source/plitvice.png"
+  },
+  "patagonia": {
+    "nazov": "Patagónia – Na konci sveta",
+    "destinacia": "Čile / Argentína",
+    "cena": "2499 €",
+    "datum": "10.11.2026 - 22.11.2026",
+    "dlzka": "12 dní",
+    "popis": "Drsná, surová a neskutočne krásna. Patagónia ponúka ľadovce, nekonečné stepi a dramatické horské masívy. Tento zájazd je dobrodružstvom pre tých, ktorí túžia po autentickej divočine a miestach, kde príroda stále vládne.",
+    "sprievodca": "Martin Krištof",
+    "obrazok": "Source/patagonia.png"
+  },
+  "kanadske_skalnate_hory": {
+    "nazov": "Kanadské Skalnaté hory – Divoký západ prírody",
+    "destinacia": "Kanada",
+    "cena": "1799 €",
+    "datum": "01.08.2026 - 10.08.2026",
+    "dlzka": "9 dní",
+    "popis": "Tyrkysové jazerá, zasnežené štíty a nekonečné lesy. Kanadské Skalnaté hory sú snom každého milovníka veľkej prírody. Počas zájazdu objavíte národné parky Banff a Jasper a zažijete pravú divočinu.",
+    "sprievodca": "Lucas Brown",
+    "obrazok": "Source/rockies.png"
+  },
+  "tatry": {
+    "nazov": "Vysoké Tatry – Srdce slovenskej prírody",
+    "destinacia": "Slovensko",
+    "cena": "299 €",
+    "datum": "18.09.2026 - 21.09.2026",
+    "dlzka": "3 dni",
+    "popis": "Symbol slovenskej prírody ponúka majestátne štíty, horské plesá a čerstvý horský vzduch. Tento zájazd je ideálny pre aktívny oddych, turistiku aj relax v horskom prostredí.",
+    "sprievodca": "Ján Hruška",
+    "obrazok": "Source/tatry.png"
+  },
+  "laponsko": {
+    "nazov": "Laponsko – Krajina polnočného slnka",
+    "destinacia": "Fínsko",
+    "cena": "1299 €",
+    "datum": "01.07.2026 - 07.07.2026",
+    "dlzka": "6 dní",
+    "popis": "Nekonečné lesy, jazerá a pokoj severu. Laponsko je miestom, kde sa čas spomaľuje a príroda hrá hlavnú rolu. Počas leta zažijete polnočné slnko a úplný únik od civilizácie.",
+    "sprievodca": "Sami Korhonen",
+    "obrazok": "Source/laponsko.png"
+  },
+  "madeira": {
+    "nazov": "Madeira – Záhrada Atlantiku",
+    "destinacia": "Portugalsko",
+    "cena": "699 €",
+    "datum": "06.10.2026 - 12.10.2026",
+    "dlzka": "6 dní",
+    "popis": "Zelený ostrov plný levád, útesov a oceánskych výhľadov. Madeira je ideálnym miestom pre turistiku, oddych aj objavovanie jedinečnej flóry a fauny.",
+    "sprievodca": "Rui Fernandes",
+    "obrazok": "Source/madeira.png"
+  },
+  "slovinsky_raj": {
+    "nazov": "Slovinský raj – Medzi Alpami a Jadranom",
+    "destinacia": "Slovinsko",
+    "cena": "429 €",
+    "datum": "11.06.2026 - 15.06.2026",
+    "dlzka": "4 dni",
+    "popis": "Smagradové rieky, horské priesmyky a panenská príroda. Slovinsko je malá krajina s obrovským prírodným bohatstvom, ideálna na aktívne objavovanie.",
+    "sprievodca": "Matej Novak",
+    "obrazok": "Source/slovinsko.png"
+  },
+  "yellowstone": {
+    "nazov": "Yellowstone – Zem gejzírov",
+    "destinacia": "USA",
+    "cena": "1899 €",
+    "datum": "09.09.2026 - 17.09.2026",
+    "dlzka": "8 dní",
+    "popis": "Najstarší národný park sveta ponúka gejzíry, horúce pramene a bohatú divokú zver. Yellowstone je miestom, kde uvidíte Zem v jej najčistejšej a najsurovejšej podobe.",
+    "sprievodca": "Andrew Miller",
+    "obrazok": "Source/yellowstone.png"
+  },
+  "novy_zeland": {
+    "nazov": "Nový Zéland – Krajina za hranicou reality",
+    "destinacia": "Nový Zéland",
+    "cena": "2899 €",
+    "datum": "05.02.2026 - 20.02.2026",
+    "dlzka": "15 dní",
+    "popis": "Nový Zéland je synonymom čistej prírody, dramatických hôr, fjordov a zelených údolí. Krajina, kde vznikli filmy Pán prsteňov, ponúka neuveriteľnú rozmanitosť – od ľadovcov až po pláže. Zájazd je ideálny pre cestovateľov, ktorí túžia po veľkom dobrodružstve.",
+    "sprievodca": "Tomáš Kováč",
+    "obrazok": "Source/newzealand.png"
+  },
+  "amazonia": {
+    "nazov": "Amazónia – Zelené srdce planéty",
+    "destinacia": "Brazília",
+    "cena": "2199 €",
+    "datum": "12.08.2026 - 22.08.2026",
+    "dlzka": "10 dní",
+    "popis": "Ponorte sa do najväčšieho dažďového pralesa sveta. Amazónia je miestom neuveriteľnej biodiverzity, riečnych zákutí a autentického života miestnych komunít. Tento zájazd ponúka jedinečný pohľad na prírodu v jej najdivokejšej podobe.",
+    "sprievodca": "Carlos Silva",
+    "obrazok": "Source/amazonia.png"
+  },
+  "namibia": {
+    "nazov": "Namíbia – Púštna krása Afriky",
+    "destinacia": "Namíbia",
+    "cena": "1999 €",
+    "datum": "03.09.2026 - 14.09.2026",
+    "dlzka": "11 dní",
+    "popis": "Nekonečné pieskové duny, divoké safari a dramatická krajina. Namíbia ponúka pokoj, priestor a prírodu, ktorá vás pohltí svojou surovou krásou.",
+    "sprievodca": "Johannes Kruger",
+    "obrazok": "Source/namibia.png"
+  },
+  "lake_bled": {
+    "nazov": "Jazero Bled – Pokoj alpského raja",
+    "destinacia": "Slovinsko",
+    "cena": "349 €",
+    "datum": "08.06.2026 - 11.06.2026",
+    "dlzka": "3 dni",
+    "popis": "Romantické jazero s ostrovčekom a hradom je ideálnym miestom na oddych. Okolie ponúka nenáročné túry, cyklotrasy a krištáľovo čistý vzduch.",
+    "sprievodca": "Nina Kralj",
+    "obrazok": "Source/bled.png"
+  },
+  "sahara": {
+    "nazov": "Sahara – Ticho piesku",
+    "destinacia": "Maroko",
+    "cena": "799 €",
+    "datum": "16.10.2026 - 22.10.2026",
+    "dlzka": "6 dní",
+    "popis": "Zažite nekonečné duny, hviezdnu oblohu a absolútne ticho. Sahara ponúka silný zážitok, ktorý vás odpojí od moderného sveta.",
+    "sprievodca": "Hassan Ben Ali",
+    "obrazok": "Source/sahara.png"
+  },
+  "azory": {
+    "nazov": "Azory – Divoké ostrovy Atlantiku",
+    "destinacia": "Portugalsko",
+    "cena": "899 €",
+    "datum": "04.05.2026 - 11.05.2026",
+    "dlzka": "7 dní",
+    "popis": "Sopečné krátery, zelené lúky a termálne pramene. Azorské ostrovy sú ideálnou destináciou pre milovníkov nedotknutej prírody a oceánu.",
+    "sprievodca": "Miguel Pereira",
+    "obrazok": "Source/azory.png"
+  },
+  "banff": {
+    "nazov": "Banff – Tyrkysové jazerá Kanady",
+    "destinacia": "Kanada",
+    "cena": "1699 €",
+    "datum": "18.07.2026 - 26.07.2026",
+    "dlzka": "8 dní",
+    "popis": "Banffský národný park ponúka ikonické jazerá, horské štíty a divokú prírodu. Ideálne miesto pre turistiku, fotografovanie a pokoj v horách.",
+    "sprievodca": "Emily Carter",
+    "obrazok": "Source/banff.png"
+  },
+  "karpaty": {
+    "nazov": "Karpaty – Ticho lesov",
+    "destinacia": "Rumunsko",
+    "cena": "499 €",
+    "datum": "10.09.2026 - 15.09.2026",
+    "dlzka": "5 dní",
+    "popis": "Rozsiahle lesy, horské lúky a tradičné dediny. Karpaty ponúkajú autentickú prírodu bez masového turizmu.",
+    "sprievodca": "Andrei Popescu",
+    "obrazok": "Source/karpaty.png"
+  },
+  "patagonske_ladovce": {
+    "nazov": "Patagónske ľadovce – Ľadový svet",
+    "destinacia": "Argentína",
+    "cena": "2599 €",
+    "datum": "18.11.2026 - 28.11.2026",
+    "dlzka": "10 dní",
+    "popis": "Obrovské ľadovce, tyrkysové jazerá a dramatické scenérie. Tento zájazd vás zavedie do jedného z najpôsobivejších regiónov planéty.",
+    "sprievodca": "Santiago Morales",
+    "obrazok": "Source/glaciers.png"
+  },
+  "krkonoše": {
+    "nazov": "Krkonoše – Hory na dosah",
+    "destinacia": "Česká republika",
+    "cena": "289 €",
+    "datum": "23.05.2026 - 26.05.2026",
+    "dlzka": "3 dni",
+    "popis": "Ideálna destinácia pre nenáročnú turistiku, horské chaty a oddych v prírode. Krkonoše sú dostupné a pritom veľmi krásne.",
+    "sprievodca": "Petr Dvořák",
+    "obrazok": "Source/krkonose.png"
+  },
+  "antarktida": {
+    "nazov": "Antarktída – Biely koniec sveta",
+    "destinacia": "Antarktída",
+    "cena": "8999 €",
+    "datum": "10.01.2027 - 24.01.2027",
+    "dlzka": "14 dní",
+    "popis": "Najodľahlejší kontinent planéty ponúka nekonečné ľadové pláne, ľadovce a kolónie tučniakov. Antarktída je miestom absolútneho ticha, kde človek cíti silu prírody viac než kdekoľvek inde. Tento zájazd je určený pre skutočných dobrodruhov.",
+    "sprievodca": "Dr. Pavel Novák",
+    "obrazok": "Source/antarktida.png"
+  },
+  "greenland": {
+    "nazov": "Grónsko – Krajina ľadu a svetla",
+    "destinacia": "Grónsko",
+    "cena": "3499 €",
+    "datum": "01.08.2026 - 10.08.2026",
+    "dlzka": "9 dní",
+    "popis": "Obrovské ľadovce, fjordy a tradičný život Inuitov. Grónsko je surové, tiché a dychberúce. Počas zájazdu zažijete polárne dni, plavbu medzi ľadovými kryhami a jedinečnú arktickú atmosféru.",
+    "sprievodca": "Mikkel Sørensen",
+    "obrazok": "Source/greenland.png"
+  },
+  "spicbergy": {
+    "nazov": "Špicbergy – Za polárnym kruhom",
+    "destinacia": "Nórsko",
+    "cena": "2999 €",
+    "datum": "05.07.2026 - 13.07.2026",
+    "dlzka": "8 dní",
+    "popis": "Divoké súostrovie ďaleko na severe, kde vládne ľad, vietor a ticho. Špicbergy ponúkajú pozorovanie ľadových medveďov, ľadovcov a polnočné slnko.",
+    "sprievodca": "Lars Henriksen",
+    "obrazok": "Source/spicbergy.png"
+  },
+  "arkticky_kruh": {
+    "nazov": "Arktický kruh – Cesta za polárnou žiarou",
+    "destinacia": "Fínsko / Nórsko",
+    "cena": "1299 €",
+    "datum": "20.02.2026 - 26.02.2026",
+    "dlzka": "6 dní",
+    "popis": "Zažite polárnu noc, ticho zasnežených lesov a magickú polárnu žiaru. Ideálna kombinácia dobrodružstva a komfortu v srdci Arktídy.",
+    "sprievodca": "Sari Nieminen",
+    "obrazok": "Source/arctic.png"
+  },
+  "everest_region": {
+    "nazov": "Everest – Pod strechou sveta",
+    "destinacia": "Nepál",
+    "cena": "1999 €",
+    "datum": "02.10.2026 - 16.10.2026",
+    "dlzka": "14 dní",
+    "popis": "Trekovanie v oblasti najvyšších hôr sveta je životným zážitkom. Himaláje ponúkajú majestátne vrcholy, kláštory a autentickú nepálsku kultúru. Everest vás naučí pokore a rešpektu k prírode.",
+    "sprievodca": "Tenzing Sherpa",
+    "obrazok": "Source/everest.png"
+  },
+  "k2_karakoram": {
+    "nazov": "Karakoram – Tieň K2",
+    "destinacia": "Pakistan",
+    "cena": "2599 €",
+    "datum": "15.07.2026 - 30.07.2026",
+    "dlzka": "15 dní",
+    "popis": "Jedna z najdrsnejších horských oblastí sveta. Karakoram ponúka surovú krásu, masívne ľadovce a pohľady na druhú najvyššiu horu sveta – K2.",
+    "sprievodca": "Ali Khan",
+    "obrazok": "Source/k2.png"
+  },
+  "denali": {
+    "nazov": "Denali – Sila Aljašky",
+    "destinacia": "USA (Aljaška)",
+    "cena": "2299 €",
+    "datum": "10.06.2026 - 20.06.2026",
+    "dlzka": "10 dní",
+    "popis": "Najvyšší vrch Severnej Ameriky dominuje divokej aljašskej krajine. Tento zájazd vás zavedie do národného parku Denali, kde vládne príroda a človek je len hosťom.",
+    "sprievodca": "Jack Thompson",
+    "obrazok": "Source/denali.png"
+  },
+  "kilimanjaro": {
+    "nazov": "Kilimandžáro – Strecha Afriky",
+    "destinacia": "Tanzánia",
+    "cena": "1899 €",
+    "datum": "05.09.2026 - 14.09.2026",
+    "dlzka": "9 dní",
+    "popis": "Výstup na najvyšší vrch Afriky je výzvou aj silným osobným zážitkom. Počas cesty prejdete viacerými klimatickými pásmami až k zasneženému vrcholu.",
+    "sprievodca": "Joseph Mwangi",
+    "obrazok": "Source/kilimanjaro.png"
+  },
+  "serengeti": {
+    "nazov": "Serengeti – Veľká migrácia",
+    "destinacia": "Tanzánia",
+    "cena": "2499 €",
+    "datum": "18.08.2026 - 26.08.2026",
+    "dlzka": "8 dní",
+    "popis": "Africké safari v jednom z najslávnejších národných parkov sveta. Pozorovanie levov, slonov a tisícov migrujúcich zvierat je zážitkom na celý život.",
+    "sprievodca": "David Nyerere",
+    "obrazok": "Source/serengeti.png"
+  },
+  "okavango": {
+    "nazov": "Delta Okavango – Vodná divočina Afriky",
+    "destinacia": "Botswana",
+    "cena": "2799 €",
+    "datum": "07.07.2026 - 15.07.2026",
+    "dlzka": "8 dní",
+    "popis": "Jedinečný ekosystém, kde rieka vytvára oázu uprostred púšte. Safari v delte Okavango ponúka blízke stretnutia s divokými zvieratami v ich prirodzenom prostredí.",
+    "sprievodca": "Kabelo Motswana",
+    "obrazok": "Source/okavango.png"
+  },
+  "patagonia_torres": {
+    "nazov": "Torres del Paine – Veterný raj Patagónie",
+    "destinacia": "Čile",
+    "cena": "2199 €",
+    "datum": "11.11.2026 - 21.11.2026",
+    "dlzka": "10 dní",
+    "popis": "Drsné vetry, žulové veže a tyrkysové jazerá. Národný park Torres del Paine patrí medzi najkrajšie horské oblasti sveta.",
+    "sprievodca": "Sebastián Rojas",
+    "obrazok": "Source/torres.png"
+  },
+  "himachal": {
+    "nazov": "Himáčalpradéš – Skryté Himaláje",
+    "destinacia": "India",
+    "cena": "1699 €",
+    "datum": "20.09.2026 - 04.10.2026",
+    "dlzka": "14 dní",
+    "popis": "Menej známa, no neuveriteľne krásna časť Himalájí. Odľahlé dediny, vysokohorské priesmyky a pokojná duchovná atmosféra.",
+    "sprievodca": "Rahul Sharma",
+    "obrazok": "Source/himalayas.png"
+  },
+  "severny_pol": {
+    "nazov": "Severný pól – Na konci sveta",
+    "destinacia": "Severný pól",
+    "cena": "11999 €",
+    "datum": "05.04.2027 - 17.04.2027",
+    "dlzka": "12 dní",
+    "popis": "Cesta na samotný Severný pól je jedným z najextrémnejších dobrodružstiev na Zemi. Nekonečné ľadové pláne, absolútne ticho a pocit, že stojíte na vrchole planéty, robia z tejto výpravy zážitok, ktorý sa nedá porovnať s ničím iným.",
+    "sprievodca": "Alexej Morozov",
+    "obrazok": "Source/northpole.png"
+  },
+  "juzny_pol": {
+    "nazov": "Južný pól – Srdce Antarktídy",
+    "destinacia": "Antarktída",
+    "cena": "13999 €",
+    "datum": "10.01.2027 - 25.01.2027",
+    "dlzka": "15 dní",
+    "popis": "Výprava do samotného srdca Antarktídy je určená len pre najodhodlanejších cestovateľov. Extrémne podmienky, nekonečný ľad a pocit absolútnej izolácie ponúkajú neopakovateľný pohľad na našu planétu.",
+    "sprievodca": "Dr. Helena Svoboda",
+    "obrazok": "Source/southpole.png"
+  },
+  "aconcagua": {
+    "nazov": "Aconcagua – Najvyšší vrch Ameriky",
+    "destinacia": "Argentína",
+    "cena": "2599 €",
+    "datum": "03.12.2026 - 18.12.2026",
+    "dlzka": "15 dní",
+    "popis": "Výstup na Aconcaguu je extrémnou výzvou pre skúsených horských nadšencov. Masívne andské štíty, vysoká nadmorská výška a drsná krása robia z tejto expedície skutočný test odolnosti.",
+    "sprievodca": "Diego Alvarez",
+    "obrazok": "Source/aconcagua.png"
+  },
+  "vinson": {
+    "nazov": "Mount Vinson – Najvyšší vrch Antarktídy",
+    "destinacia": "Antarktída",
+    "cena": "14999 €",
+    "datum": "08.01.2027 - 22.01.2027",
+    "dlzka": "14 dní",
+    "popis": "Jedna z najnáročnejších horolezeckých výprav sveta. Mount Vinson ponúka extrémny chlad, izoláciu a pocit, že ste úplne mimo civilizácie.",
+    "sprievodca": "Markus Steiner",
+    "obrazok": "Source/vinson.png"
+  },
+  "drakensberg": {
+    "nazov": "Drakensberg – Dračí chrbát Afriky",
+    "destinacia": "Južná Afrika",
+    "cena": "1299 €",
+    "datum": "14.10.2026 - 23.10.2026",
+    "dlzka": "9 dní",
+    "popis": "Drsný horský masív, strmé útesy a vysokohorské plošiny. Drakensberg ponúka divokú africkú prírodu v kombinácii s panoramatickými výhľadmi.",
+    "sprievodca": "Sipho Mbeki",
+    "obrazok": "Source/drakensberg.png"
+  },
+  "ngorongoro": {
+    "nazov": "Ngorongoro – Safari v kráteri",
+    "destinacia": "Tanzánia",
+    "cena": "2399 €",
+    "datum": "20.08.2026 - 27.08.2026",
+    "dlzka": "7 dní",
+    "popis": "Najväčší neporušený sopečný kráter sveta je domovom neuveriteľného množstva divokých zvierat. Safari v Ngorongoro patrí medzi najintenzívnejšie africké zážitky.",
+    "sprievodca": "Samuel Nyerere",
+    "obrazok": "Source/ngorongoro.png"
+  },
+  "masai_mara": {
+    "nazov": "Masai Mara – Srdce africkej savany",
+    "destinacia": "Keňa",
+    "cena": "2299 €",
+    "datum": "11.09.2026 - 18.09.2026",
+    "dlzka": "7 dní",
+    "popis": "Legendárna savana plná levov, gepardov a nekonečných stád. Masai Mara je ikonou safari a miestom, kde príroda ukazuje svoju najdivokejšiu tvár.",
+    "sprievodca": "Joseph ole Ntimama",
+    "obrazok": "Source/masaimara.png"
+  },
+  "kamcatka": {
+    "nazov": "Kamčatka – Krajina sopiek",
+    "destinacia": "Rusko",
+    "cena": "2699 €",
+    "datum": "01.07.2026 - 12.07.2026",
+    "dlzka": "11 dní",
+    "popis": "Jedna z posledných veľkých divočín sveta. Aktívne sopky, gejzíry a medvede robia z Kamčatky fascinujúcu a extrémnu destináciu.",
+    "sprievodca": "Sergej Ivanov",
+    "obrazok": "Source/kamcatka.png"
+  },
+  "altaj": {
+    "nazov": "Altaj – Križovatka civilizácií",
+    "destinacia": "Mongolsko",
+    "cena": "1899 €",
+    "datum": "09.08.2026 - 21.08.2026",
+    "dlzka": "12 dní",
+    "popis": "Odľahlé hory, nekonečné stepi a tradičný nomádsky spôsob života. Altaj ponúka surovú prírodu a silný pocit slobody.",
+    "sprievodca": "Bat-Erdene",
+    "obrazok": "Source/altaj.png"
+  },
+  "svalbard_zima": {
+    "nazov": "Špicbergy v zime – Kráľovstvo tmy a svetla",
+    "destinacia": "Nórsko",
+    "cena": "2599 €",
+    "datum": "15.02.2027 - 22.02.2027",
+    "dlzka": "7 dní",
+    "popis": "Zimná Arktída ponúka extrémne podmienky, polárnu noc a možnosť pozorovať polárnu žiaru v jej najčistejšej podobe.",
+    "sprievodca": "Ingrid Olsen",
+    "obrazok": "Source/svalbard_winter.png"
   }
 }
