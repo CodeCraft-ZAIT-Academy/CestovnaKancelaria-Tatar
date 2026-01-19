@@ -122,3 +122,54 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Chyba pri načítaní katalógu:", err));
 });
+
+/////////////////////////////////////////////////GENEROVANIE KATALOGU HOMEPAGE///////////////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", () => {
+  const katalogGrid = document.getElementById("katalog-grid-home");
+  if (!katalogGrid) return;
+
+  fetch("zajazdy.json")
+    .then(res => res.json())
+    .then(data => {
+      // 1. Convert the object entries to an array
+      const entries = Object.entries(data);
+
+      // 2. Shuffle the array randomly
+      const shuffled = entries.sort(() => 0.5 - Math.random());
+
+      // 3. Take only the first 4 items
+      const selected = shuffled.slice(0, 4);
+
+      selected.forEach(([id, z]) => {
+        const post = document.createElement("div");
+        post.className = "Grid-Katalog-Post";
+
+        post.innerHTML = `
+          <img
+            src="${z.obrazok}"
+            class="Grid-Katalog-Post-Image"
+            alt="${z.nazov}"
+          >
+
+          <h2 class="Homepage-Post-Title">${z.nazov}</h2>
+
+          <div class="Grid-Katalog-Post-Parameters">
+            <p class="Grid-Katalog-Post-Text">Destinácia: ${z.destinacia}</p>
+            <p class="Grid-Katalog-Post-Text">Cena: ${z.cena}</p>
+            <p class="Grid-Katalog-Post-Text">Dĺžka pobytu: ${z.dlzka}</p>
+
+            <button
+              class="Grid-Katalog-Post-Button zajazd-open-btn"
+              data-id="${id}"
+            >
+              Viac informácií
+            </button>
+          </div>
+        `;
+
+        katalogGrid.appendChild(post);
+      });
+    })
+    .catch(err => console.error("Chyba pri načítaní katalógu:", err));
+});

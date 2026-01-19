@@ -1,0 +1,28 @@
+<!--Obrazkovy post-->
+        <div class="Homepage-Post-Image">
+
+            <!--Nazov postu-->
+            <h2 class="Homepage-Post-Title">Obrazkovy Post</h2>
+
+            <!--Obsah-->
+            <img src="Source/Mountains-Template-Image.png" class="Homepage-Post-ImageSource">
+            <img src="Source/Mountains-Template-Image.png" class="Homepage-Post-ImageSource">
+            <img src="Source/Mountains-Template-Image.png" class="Homepage-Post-ImageSource">
+        </div>
+
+        <!--Textovy post-->
+        <div class="Homepage-Post-Text">
+
+            <!--Nazov postu-->
+            <h2 class="Homepage-Post-Title">Textovy Post</h2>
+
+            <!--Obsah-->
+            <p class="Homepage-Post-TextField">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis maxime<br>
+                harum minima. Mollitia, iure neque <br>
+                quas quis, dicta ullam nam accusamus ipsam vero aut nesciunt repellendus, saepe animi illo <br>
+                mollitia assumenda deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nihil.<br>
+                deserunt facilis cupiditate perferendis eos cumque perspiciatis placeat voluptatum nesciunt excepturi <br>
+                aliquid eligendi doloribus dolorum rem qui.
+            </p>
+        </div>
