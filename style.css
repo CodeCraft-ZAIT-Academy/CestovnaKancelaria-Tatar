@@ -16,8 +16,7 @@
     position: relative;
     width: 100vw;       /* Forces the section to be exactly as wide as the screen */
     margin-left: -50vw; /* These two lines center the wide section */
-    left: 50%;          /* back to the middle, even if inside a padded container */
-    
+    left: 50%;          /* back to the middle, even if inside a padded container */ 
     overflow: hidden;
     padding: 50px 0;
 }
@@ -113,6 +112,7 @@
 
 /*Body*/
 body{
+    margin: 0;
     padding-top: 60px;
     font-family: "Montserrat", "Noto Sans", sans-serif;
     overflow-x: hidden;
@@ -155,21 +155,21 @@ body{
     line-height: 1.6;
 }
 
-/*Reklamny post*/
-.Homepage-Post-AD{
-    max-width: 100%;
-    width: 100%;
-}
-
+/* Reklamny post */
 .Homepage-Post-AD {
     width: 100vw;
-    height: 100vh;
     position: relative;
     left: 50%;
-    right: 50%;
     margin-left: -50vw;
-    margin-right: -50vw;
 }
+
+/* Image inside ad */
+.Homepage-AD-Source {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 
 /************************************************************************************/
@@ -366,16 +366,20 @@ td, tr{
     gap: 20px;
 }
 
-.Kontakt-Blok{
+.Kontakt-Blok {
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
-    border: #90E0EF 3px solid;
+    border: 3px solid #90E0EF;
     width: 20%;
     background-color: #CAF0F8;
     border-radius: 20px;
     transition: 0.3s ease;
-    margin: 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    overflow: hidden;
 }
 
 .Kontakt-Blok:hover{
@@ -421,8 +425,55 @@ td, tr{
 /************************************************************************************/
 /*FOOTER*/
 /************************************************************************************/
-.Footer{
+.Footer {
+    background-color: #03045E;
+    color: #CAF0F8;
+    padding: 40px 20px 20px;
+    font-size: 16px;
+}
+
+.Footer-Content {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
     text-align: center;
+}
+
+.Footer-Brand h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #90E0EF;
+}
+
+.Footer-Brand p {
+    opacity: 0.8;
+}
+
+.Footer-Links,
+.Footer-Socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Footer a {
+    color: #CAF0F8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Footer a:hover {
+    color: #90E0EF;
+}
+
+.Footer-Bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    opacity: 0.7;
 }
 
 /*************************************************************************************/
