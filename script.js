@@ -90,7 +90,17 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("zajazdy.json")
     .then(res => res.json())
     .then(data => {
-      Object.entries(data).forEach(([id, z]) => {
+      // 1. Convert Object entries to an Array
+      const entries = Object.entries(data);
+
+      // 2. Shuffle the Array (Fisher-Yates Shuffle algorithm)
+      for (let i = entries.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [entries[i], entries[j]] = [entries[j], entries[i]];
+      }
+
+      // 3. Generate the HTML from the shuffled array
+      entries.forEach(([id, z]) => {
         const post = document.createElement("div");
         post.className = "Grid-Katalog-Post";
 
@@ -100,20 +110,22 @@ document.addEventListener("DOMContentLoaded", () => {
             class="Grid-Katalog-Post-Image"
             alt="${z.nazov}"
           >
+          
+          <div class="Grid-Katalog-Post-Content">
+            <h2 class="Homepage-Post-Title">${z.nazov}</h2>
 
-          <h2 class="Homepage-Post-Title">${z.nazov}</h2>
+            <div class="Grid-Katalog-Post-Parameters">
+              <p class="Grid-Katalog-Post-Text"><strong>Destinácia:</strong> ${z.destinacia}</p>
+              <p class="Grid-Katalog-Post-Text"><strong>Cena:</strong> ${z.cena}</p>
+              <p class="Grid-Katalog-Post-Text"><strong>Dĺžka pobytu:</strong> ${z.dlzka}</p>
 
-          <div class="Grid-Katalog-Post-Parameters">
-            <p class="Grid-Katalog-Post-Text">Destinácia: ${z.destinacia}</p>
-            <p class="Grid-Katalog-Post-Text">Cena: ${z.cena}</p>
-            <p class="Grid-Katalog-Post-Text">Dĺžka pobytu: ${z.dlzka}</p>
-
-            <button
-              class="Grid-Katalog-Post-Button zajazd-open-btn"
-              data-id="${id}"
-            >
-              Viac informácií
-            </button>
+              <button
+                class="Grid-Katalog-Post-Button zajazd-open-btn"
+                data-id="${id}"
+              >
+                Viac informácií
+              </button>
+            </div>
           </div>
         `;
 
