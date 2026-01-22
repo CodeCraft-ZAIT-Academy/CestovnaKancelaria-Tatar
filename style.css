@@ -45,7 +45,7 @@
     left: 0px;
     top: 0px;
     z-index: 1000;
-    padding: 0 15px; /
+    padding: 0 15px; 
 }
 
 .Header-Title{
@@ -173,7 +173,6 @@ body{
     margin: 20px 0;
 }
 
-/* Image inside ad */
 .Homepage-AD-Source {
     width: 100%;
     height: auto;
@@ -305,6 +304,7 @@ body{
     flex-wrap: wrap;
 }
 
+/*Respozivita*/
 @media (max-width: 768px) {
     .Katalog-Sidebar {
         width: 100%;
@@ -353,7 +353,7 @@ body{
     margin: 0 auto 60px;
     padding: 0 20px;
     display: flex;
-    flex-wrap: wrap; /* Allows sidebar to drop below on mobile */
+    flex-wrap: wrap; 
     gap: 30px;
 }
 
@@ -494,7 +494,7 @@ body{
     color: #0077B6;
 }
 
-
+/*Responzivita*/
 @media (max-width: 992px) {
     .Blog-Container {
         flex-direction: column;
@@ -650,8 +650,7 @@ td, tr{
     opacity: 0.8;
 }
 
-.Footer-Links,
-.Footer-Socials {
+.Footer-Links, .Footer-Socials {
     display: flex;
     flex-direction: column;
     gap: 10px;

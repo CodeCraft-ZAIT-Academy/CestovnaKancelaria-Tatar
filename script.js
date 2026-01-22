@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const shuffled = entries.sort(() => 0.5 - Math.random());
 
       // 3. Take only the first 4 items
-      const selected = shuffled.slice(0, 4);
+      const selected = shuffled.slice(0, 5);
 
       selected.forEach(([id, z]) => {
         const post = document.createElement("div");
